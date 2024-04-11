@@ -11,7 +11,7 @@ def encode(x):
     return x
 
 #def decode(x):
-
+#wow
 
 option = menu()
 if __name__ == "__main__":
