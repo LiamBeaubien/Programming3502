@@ -7,10 +7,15 @@ def menu():
 def encode(x):
     new = ''
     for i in range(len(x)):
-        new = new + str((int(x[i])+3)//10)
-    return x
+        new = new + str((int(x[i])+3) % 10)
+    return new
 
-#def decode(x):
+#Lane's Function
+def decode(x):
+    new = ''
+    for i in range(len(x)):
+        new = new + str((int(x[i]) + 7) % 10)
+    return new
 
 
 option = menu()
